@@ -1,1 +1,25 @@
 @charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+header{
+  background-color: rgb(67, 7, 79);
+}
+
+nav > ul> li{
+    font-family: 'Iowan Old Style';
+    font-size: 24px;
+    display: inline-block;
+    padding: 30px;
+    color: white;
+    width: 300px;
+    right: 20px;
+    
+    
+  
+}
+
+
+
