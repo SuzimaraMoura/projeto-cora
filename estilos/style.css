@@ -4,8 +4,21 @@
     padding: 0px;
    
 }
+body{
+  background: #F5F5F5;
+}
+
 header{
-  background-color: rgb(67, 7, 79);
+  background-color:rgba(65, 42, 76, 1);
+  height: 70px;
+  width: 1440px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+
+
+
 }
 
 nav > ul> li{
@@ -20,6 +33,71 @@ nav > ul> li{
     
   
 }
+section.chamado >h1{
+  padding: 100px;
+  font-family: 'Poppins';
+  font-size: 81.2651px;
+  color: #412A4C;
+  
+}
+section.chamado >p{
+  position: absolute;
+  width: 467px;
+  height: 91px;
+  left: 135px;
+  top: 435px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150.02%;
+  color: #3A506B;
+
+
+ 
+
+}
+section.chamado > img{
+  position: absolute;
+  width: 314.07px;
+  height: 445.02px;
+  left: 735.68px;
+  top: 168px;
+
+  background: #C4C4C4;
+  border-radius: 12.2686px;
+}
+section > div.botao:hover{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px;
+  gap: 10px;
+
+  position: absolute;
+  width: 174px;
+  height: 51px;
+  left: 135px;
+  top: 558px;
+
+  /* Secundária/01 */
+
+  background: #E57CD8;
+  border-radius: 40px;
+
+}
+  
+  
+ 
+ 
+
+  
+  
+  
+  
+
 
 
 
