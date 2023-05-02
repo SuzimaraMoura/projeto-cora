@@ -1,93 +1,219 @@
 @charset "UTF-8";
+
 *{
-    margin: 0px;
-    padding: 0px;
-   
+ margin: 0px;
+ padding: 0px;
 }
+
 body{
-  background: #F5F5F5;
-}
-
-header{
-  background-color:rgba(65, 42, 76, 1);
-  height: 70px;
+  background:#FFF3ED;
   width: 1440px;
+  height: 1807px;
+
+}
+
+.menu ul{
+  position: absolute;
+  background-color:#412A4C;
+  width: 1440px;
+  height: 70px;
   left: 0px;
-  top: 0px;
-  border-radius: 0px;
-
-
-
-
+  top: 0px; 
 }
 
-nav > ul> li{
-    font-family: 'Iowan Old Style';
-    font-size: 24px;
-    display: inline-block;
-    padding: 30px;
-    color: white;
-    width: 300px;
-    right: 20px;
-    
-    
-  
+.menu ul li{
+  display: inline;
+  color: #FFF3ED; 
 }
-section.chamado >h1{
-  padding: 100px;
-  font-family: 'Poppins';
+
+.menu ul li.cora{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  padding-inline-start: 135px;
+  font-family: 'Iowan Old Style';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: #E57CD8;
+}
+
+.menu ul li.ponto{
+  padding-inline-start: 190px;
+  color: rgba(255, 222, 145, 1);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: 'Iowan Old Style';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center; 
+}
+
+.menu ul li.blog{
+  position: absolute;
+  width: 32px;
+  height: 21px;
+  left: 1020px;
+  top: 25px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FFF3ED;
+}
+
+.menu ul li.contato{
+  position: absolute;
+  width: 62px;
+  height: 21px;
+  left: 1105px;
+  top: 25px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FFF3ED;
+}
+
+.menu ul li button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 138px;
+  height: 37px;
+  left: 1217px;
+  top: 17px;
+  color: #FFFFFF;
+  background: #E57CD8;
+  border-radius: 40px;
+}
+.chamado h1{
+  position: absolute;
+  width: 553px;
+  height: 176px;
+  left: 135px;
+  top: 227px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700px;
   font-size: 81.2651px;
+  line-height: 110.2%;
   color: #412A4C;
-  
 }
-section.chamado >p{
+.chamado p{
   position: absolute;
   width: 467px;
   height: 91px;
   left: 135px;
   top: 435px;
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 150.02%;
   color: #3A506B;
-
-
- 
-
 }
-section.chamado > img{
+
+div.imagem{
   position: absolute;
   width: 314.07px;
   height: 445.02px;
   left: 735.68px;
   top: 168px;
-
   background: #C4C4C4;
   border-radius: 12.2686px;
 }
-section > div.botao:hover{
+section.chamado button{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 14px 32px;
   gap: 10px;
-
+  color: #FFFFFF;
   position: absolute;
   width: 174px;
   height: 51px;
   left: 135px;
   top: 558px;
-
-  /* Secundária/01 */
-
   background: #E57CD8;
   border-radius: 40px;
-
 }
+
+section.escolher{
+  position: absolute;
+  width: 1440px;
+  height: 499px;
+  left: 0px;
+  top: 803px;
+  background: #2C1338;
+  
+  
+}
+
+section.escolher > h2{
+  width: 230px;
+  height: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #E57CD8;
+  flex: none;
+  order: 1;
+  flex-grow: 0; 
+}
+.escolher p{
+  width: 230px;
+  height: 94px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFF3ED;
+  flex: none;
+  order: 2;
+  flex-grow: 0; 
+}
+
+
+
+
+
+  
+
+   
+ 
+
   
   
  
