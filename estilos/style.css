@@ -172,7 +172,7 @@ section.escolher{
   
 }
 
-section.escolher > h2{
+section.escolher ul li  h2{
   width: 230px;
   height: 30px;
   font-family: 'Poppins';
@@ -188,7 +188,7 @@ section.escolher > h2{
   order: 1;
   flex-grow: 0; 
 }
-.escolher p{
+.escolher ul li p{
   width: 230px;
   height: 94px;
   font-family: 'Poppins';
@@ -209,6 +209,12 @@ section.escolher ul{
   display: flex;
   justify-content: space-around;
   padding: 100px;
+}
+.escolher ul li h2#amarelo{
+  color: #FFDE91;
+}
+.escolher ul li h2#lilas{
+  color: #A876F5;
 }
 
 
