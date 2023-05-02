@@ -127,6 +127,7 @@ body{
   height: 91px;
   left: 135px;
   top: 435px;
+  
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -188,7 +189,7 @@ section.escolher ul li  h2{
   order: 1;
   flex-grow: 0; 
 }
-.escolher ul li p{
+.escolher ul li p#p1{
   width: 230px;
   height: 94px;
   font-family: 'Poppins';
@@ -204,17 +205,124 @@ section.escolher ul li  h2{
   order: 2;
   flex-grow: 0; 
 }
+.escolher ul li p#p2{
+  width: 273px;
+  height: 105px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #FFF3ED;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.escolher ul li p#p3{  
+  width: 247px;
+  height: 97px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFF3ED;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
 section.escolher ul{
   list-style: none;
   display: flex;
   justify-content: space-around;
   padding: 100px;
 }
+
 .escolher ul li h2#amarelo{
-  color: #FFDE91;
+  color: #FFDE91;  
 }
+
 .escolher ul li h2#lilas{
-  color: #A876F5;
+  color: #A876F5;  
+}
+section.participe{
+  position: absolute;
+  width: 1440px;
+  height: 411px;
+  left: 0px;
+  top: 1302px;
+  background: #FDF1EC;
+}
+section.participe h1{
+  position: absolute;
+  width: 1171px;
+  height: 36px;
+  left: 440px;
+  bottom: 290px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #E57CD8;
+}
+section.participe p{
+  position: absolute;
+  width: 792px;
+  height: 75px;
+  left: 324px;
+  top: 170px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.3px;
+
+color: #606474;
+}
+footer{
+  position: absolute;
+  width: 1440px;
+  height: 94px;
+  left: 0px;
+  bottom: 0px;
+  top: 1700px;
+  background: #412A4C;
+}
+section.participe button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  left:600px;
+  bottom: 60px;
+  background: #E57CD8;
+  border-radius: 40px;
 }
 
 
