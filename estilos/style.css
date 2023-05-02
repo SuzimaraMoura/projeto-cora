@@ -204,6 +204,12 @@ section.escolher > h2{
   order: 2;
   flex-grow: 0; 
 }
+section.escolher ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
 
 
 
