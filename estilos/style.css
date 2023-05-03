@@ -12,10 +12,15 @@ font-family: 'Poppins', sans-serif; */
   margin: 0px;
   padding: 0px;
   
- }
+}
 
+header{
+  position: fixed;
+ 
+}
  
 .menu ul{
+  
   position: absolute;
   background-color:#412A4C;
   width: 1440px;
@@ -48,13 +53,13 @@ font-family: 'Poppins', sans-serif; */
 }
 
 
-.menu ul li.blog{
+.menu ul li.blog a{
   position: absolute;
   width: 32px;
   height: 21px;
   left: 1020px;
   top: 25px;
-
+  text-decoration: none;
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -65,7 +70,7 @@ font-family: 'Poppins', sans-serif; */
   color: #FFF3ED;
 }
 
-.menu ul li.contato{
+.menu ul li.contato a{
   position: absolute;
   width: 62px;
   height: 21px;
@@ -79,9 +84,10 @@ font-family: 'Poppins', sans-serif; */
   display: flex;
   align-items: center;
   color: #FFF3ED;
+  text-decoration: none;
 }
 
-.menu ul li button{
+.menu ul li button a {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -89,14 +95,15 @@ font-family: 'Poppins', sans-serif; */
   padding: 8px 20px;
   gap: 10px;
   position: absolute;
-  width: 138px;
-  height: 37px;
-  left: 1217px;
+  width: 110px;
+  height: 25px;
+  left: 1196px;
   top: 17px;
   color: #FFFFFF;
   background: #E57CD8;
   border-radius: 40px;
   border: none;
+  text-decoration: none;
 }
 .chamado h1{
   position: absolute;
@@ -328,8 +335,11 @@ footer div img{
 footer ul li{
   display: inline;
   color: #FFF3ED;
+ 
+ 
   
 }
+
 
 
 
