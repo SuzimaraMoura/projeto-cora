@@ -1,15 +1,22 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@500&display=swap');
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
 *{
  margin: 0px;
  padding: 0px;
 }
 
-body{
-  background:#FFF3ED;
-  width: 1440px;
-  height: 1807px;
 
+/* Menu do Projeto Cora */
+/* Para fazer um atalho de comentário no Css usa-se ctrl e dois pontos, quem me ensinou foi o José*/
+
+header{
+  width: 1440px;
+  background-color: #000;
 }
 
 .menu ul{
@@ -66,6 +73,7 @@ body{
   height: 21px;
   left: 1020px;
   top: 25px;
+
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -107,6 +115,7 @@ body{
   color: #FFFFFF;
   background: #E57CD8;
   border-radius: 40px;
+  border: none;
 }
 .chamado h1{
   position: absolute;
@@ -160,6 +169,7 @@ section.chamado button{
   top: 558px;
   background: #E57CD8;
   border-radius: 40px;
+  border: none;
 }
 
 section.escolher{
@@ -249,6 +259,7 @@ section.escolher ul{
 
 .escolher ul li h2#amarelo{
   color: #FFDE91;  
+ 
 }
 
 .escolher ul li h2#lilas{
@@ -300,15 +311,6 @@ section.participe p{
 
 color: #606474;
 }
-footer{
-  position: absolute;
-  width: 1440px;
-  height: 94px;
-  left: 0px;
-  bottom: 0px;
-  top: 1700px;
-  background: #412A4C;
-}
 section.participe button{
   display: flex;
   flex-direction: row;
@@ -322,8 +324,33 @@ section.participe button{
   left:600px;
   bottom: 60px;
   background: #E57CD8;
+  color: #FFFFFF;
   border-radius: 40px;
+  border: none;
+}   
+footer{
+  position: absolute;
+  width: 1440px;
+  height: 94px;
+  left: 0px;
+  bottom: 0px;
+  top: 1700px;
+  background: #412A4C;
 }
+
+footer div img{
+  padding-inline-start: 135px;
+  padding-block-start: 30px;
+
+}
+
+footer ul li{
+  display: inline;
+  color: #FFF3ED;
+  
+}
+
+
 
 
 
