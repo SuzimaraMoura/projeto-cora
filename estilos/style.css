@@ -5,20 +5,16 @@
 /* font-family: 'DM Sans', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-*{
- margin: 0px;
- padding: 0px;
-}
-
-
 /* Menu do Projeto Cora */
 /* Para fazer um atalho de comentário no Css usa-se ctrl e dois pontos, quem me ensinou foi o José*/
 
-header{
-  width: 1440px;
-  background-color: #000;
-}
+*{
+  margin: 0px;
+  padding: 0px;
+  
+ }
 
+ 
 .menu ul{
   position: absolute;
   background-color:#412A4C;
@@ -33,7 +29,7 @@ header{
   color: #FFF3ED; 
 }
 
-.menu ul li.cora{
+.menu ul li img{
   position: absolute;
   left: 0%;
   right: 0%;
@@ -48,24 +44,9 @@ header{
   display: flex;
   align-items: center;
   color: #E57CD8;
+  padding-block-start: 30px;
 }
 
-.menu ul li.ponto{
-  padding-inline-start: 190px;
-  color: rgba(255, 222, 145, 1);
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  font-family: 'Iowan Old Style';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 33px;
-  display: flex;
-  align-items: center; 
-}
 
 .menu ul li.blog{
   position: absolute;
@@ -225,7 +206,7 @@ section.escolher ul li  h2{
   line-height: 21px;
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align:center;
   letter-spacing: 0.3px;
   color: #FFF3ED;
   flex: none;
