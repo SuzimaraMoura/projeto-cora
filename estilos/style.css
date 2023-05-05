@@ -10,20 +10,23 @@ font-family: 'Poppins', sans-serif; */
 
 *{
   margin: 0px;
-  padding: 0px;
-  
-}
-body{
-  margin: 0px;
-  padding: 0px;
-  margin: auto;
+  padding: 0px; 
 }
 
-header{
-  position: fixed;
+body{
+  margin: auto;
+  background: #FDF1EC; 
+  
+  
  
 }
- 
+header{
+  position: fixed;
+  
+}
+
+
+
 .menu ul{
   
   position: absolute;
@@ -56,7 +59,6 @@ header{
   color: #E57CD8;
   padding-block-start: 30px;
 }
-
 
 .menu ul li.blog a{
   position: absolute;
@@ -110,6 +112,7 @@ header{
   border: none;
   text-decoration: none;
 }
+
 .chamado h1{
   position: absolute;
   width: 553px;
@@ -129,7 +132,6 @@ header{
   height: 91px;
   left: 135px;
   top: 435px;
-  
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -148,6 +150,11 @@ div.imagem{
   border-radius: 12.2686px;
 }
 section.chamado button{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 23px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -171,27 +178,47 @@ section.escolher{
   height: 499px;
   left: 0px;
   top: 803px;
-  background: #2C1338;
-  
-  
+  background: #2C1338; 
 }
 
-section.escolher ul li  h2{
+section.escolher ul{
+  list-style: none;
+  display: flex;
+  padding: 100px;
+  justify-content: space-around; 
+}
+.escolher ul li img{
+  padding-left: 30px;
+}
+
+.escolher ul li h2 {
   width: 230px;
   height: 30px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #E57CD8;
-  flex: none;
-  order: 1;
-  flex-grow: 0; 
+  line-height: 30px;  
 }
+
+.escolher ul li h2#form{
+  padding-bottom: 10px;
+  color: #E57CD8;
+  text-align: center; 
+}
+
+.escolher ul li h2#amarelo{
+  color: #FFDE91; 
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.escolher ul li h2#lilas{
+  color: #A876F5;  
+  padding-bottom: 10px; 
+  text-align: center;
+}
+
 .escolher ul li p#p1{
   width: 230px;
   height: 94px;
@@ -208,6 +235,7 @@ section.escolher ul li  h2{
   order: 2;
   flex-grow: 0; 
 }
+
 .escolher ul li p#p2{
   width: 273px;
   height: 105px;
@@ -223,9 +251,7 @@ section.escolher ul li  h2{
   color: #FFF3ED;
   flex: none;
   order: 2;
-  flex-grow: 0;
- 
- 
+  flex-grow: 0; 
 }
 
 .escolher ul li p#p3{  
@@ -245,21 +271,6 @@ section.escolher ul li  h2{
   flex-grow: 0;
 }
 
-section.escolher ul{
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  padding: 100px;
-}
-
-.escolher ul li h2#amarelo{
-  color: #FFDE91;  
- 
-}
-
-.escolher ul li h2#lilas{
-  color: #A876F5;  
-}
 section.participe{
   position: absolute;
   width: 1440px;
@@ -268,13 +279,13 @@ section.participe{
   top: 1302px;
   background: #FDF1EC;
 }
+
 section.participe h1{
   position: absolute;
   width: 1171px;
   height: 36px;
   left: 440px;
   bottom: 290px;
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -286,28 +297,31 @@ section.participe h1{
   letter-spacing: 0.3px;
   color: #E57CD8;
 }
+
 section.participe p{
   position: absolute;
   width: 792px;
   height: 75px;
   left: 324px;
   top: 170px;
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-
   display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.3px;
-
-color: #606474;
+  text-indent: 25px;
+  text-align: justify;
+  color: #606474;
 }
+
 section.participe button{
-  display: flex;
+  
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 23px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -322,7 +336,8 @@ section.participe button{
   color: #FFFFFF;
   border-radius: 40px;
   border: none;
-}   
+}  
+
 footer{
   position: absolute;
   width: 1440px;
@@ -336,16 +351,74 @@ footer{
 footer div img{
   padding-inline-start: 135px;
   padding-block-start: 30px;
+}
 
+footer ul {
+  display: inline;
+  color: #FFF3ED; 
 }
 
 footer ul li{
   display: inline;
   color: #FFF3ED;
- 
- 
-  
 }
+
+footer ul li.p{
+  position: absolute;
+  width: 169px;
+  height: 21px;
+  left: 856px;
+  bottom: 37px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FCE5D8;
+}
+
+footer ul li.t{
+  position: absolute;
+  width: 109px;
+  height: 21px;
+  left: 1062px;
+  bottom: 37px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FCE5D8;
+}
+
+footer ul li.c{
+  position: absolute;
+  width: 5.25px;
+  height: 12px;
+  left: 1200.08px;
+  bottom: 44.08px; 
+}
+
+footer ul li.ano{
+  position: absolute;
+  width: 86px;
+  height: 21px;
+  left: 1218px;
+  bottom: 37px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FCE5D8;
+}
+
 
 
 
