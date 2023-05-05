@@ -14,21 +14,14 @@ font-family: 'Poppins', sans-serif; */
 }
 
 body{
-  margin: auto;
-  background: #FDF1EC; 
-  
-  
- 
+  background: #FDF1EC;  
 }
+
 header{
-  position: fixed;
-  
+  position: fixed; 
 }
-
-
 
 .menu ul{
-  
   position: absolute;
   background-color:#412A4C;
   width: 1440px;
@@ -316,7 +309,6 @@ section.participe p{
 }
 
 section.participe button{
-  
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 550;
