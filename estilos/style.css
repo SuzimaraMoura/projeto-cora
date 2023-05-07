@@ -18,15 +18,22 @@ body{
   background: #FDF1EC;
   width: 1440px;
   height: 1807px;
+  overflow-x: hidden;   /* para corrigir a barra de rolagem */
 
- 
-  
+}
 
+.fundo-fake {
+  height: 70px;
+  width: 100%;
+  background: #2C1338;
 }
 
 header{
  
-  background-color:#412A4C;
+  background-color:rgba(255, 255, 255, 0.11);
+  position: fixed;
+  z-index: 1;  /* para dar profundidade na imagem */
+  backdrop-filter: blur(150px); /* serve para dar a transparencia */
   width: 1440px;
   height: 70px;
   left: 0px;
