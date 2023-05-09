@@ -13,19 +13,17 @@ font-family: 'Poppins', sans-serif; */
   padding: 0px; 
 }
 
-
 body{
   background: #FDF1EC;
   width: 1440px;
   height: 1807px;
   overflow-x: hidden;   /* para corrigir a barra de rolagem */
-
 }
 
 .fundo-fake {
   height: 70px;
   width: 100%;
-  background: #2C1338;
+  background: #2C1338; 
 }
 
 header{
